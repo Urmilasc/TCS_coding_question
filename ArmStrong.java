@@ -1,13 +1,14 @@
 public class ArmStrong {
     public static void main(String[] args) {
         int n= 153;
+        int duplicate = n;
         int digit =0;
         while( n > 0){
             digit++;
             n= n/10;
         }
-        int m=9475;
-        boolean ans = findArmstrong(m, digit);
+        int m=153;
+        boolean ans = findArmstrong(duplicate, digit);
         System.out.println(ans);
         System.out.println("digit : " +digit);
     }

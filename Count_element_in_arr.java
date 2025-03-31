@@ -8,25 +8,25 @@ public class Count_element_in_arr {
     public static void main(String[] args){
         int[] arr = {5,10,15,10,15, 4, 4, 4, 4};
 
-        // Arrays.sort(arr);
+        Arrays.sort(arr);
 
-        // ArrayList<Integer> ans = new ArrayList<>();
-        // int count =1;
-        // for(int i=1 ; i  < arr.length; i++){
-        //     if(arr[i] == arr[i-1]){
-        //         count++;
-        //     }
-        //     else{
-        //         ans.add(count);
-        //         count = 1;
-        //     }
+        ArrayList<Integer> ans = new ArrayList<>();
+        int count =1;
+        for(int i=1 ; i  < arr.length; i++){
+            if(arr[i] == arr[i-1]){
+                count++;
+            }
+            else{
+                ans.add(count);
+                count = 1;
+            }
            
-        // }
-        // ans.add(count);
+        }
+        ans.add(count);
 
-        // System.out.println(ans);
+        System.out.println(ans);
 
-        findCount(arr);
+        // findCount(arr);
         
 }
 

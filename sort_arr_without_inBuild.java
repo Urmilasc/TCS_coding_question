@@ -1,4 +1,3 @@
-import java.lang.runtime.SwitchBootstraps;
 import java.util.Scanner;
 public class sort_arr_without_inBuild {
     public static void main(String[] args) {
